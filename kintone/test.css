@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+#bs-edit-posttitle
+{
+  margin-bottom: 0;
+}
+
+#bs-richtextbox-container
+{
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+}
+
+#bs-richtextbox
+{
+  box-shadow: none;
+  border: none;
+}
+
+#bs-richtextbox:empty:before
+{
+  content: "ここに内容を入力してください";
+  color: gray;
+}
+
+#bs-richtextbox-toolbar
+{
+  border-bottom: solid 1px lightgray;
+}
+
+#bs-viewer-container
+{
+  width: 100%;
+  padding: 0;
+}
+
+#bs-viewer
+{
+  border: none;
+  background-color: white;
+  height: auto; 
+}
+
+.post_title_label
+{
+  font-size: 24pt;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.post_updatedate_label
+{
+  font-size: 10pt;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post_modifier_label
+{
+  font-size: 10pt;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post_info_group
+{
+  padding: 8px;
+  background-color: white;
+}
+
+/*既存のスタイルを書換え*/
+#record-gaia
+{
+ padding: 0; 
+ background-color: white;
+}
+
+#bs-richtextbox-container .input-text-outer-cybozu.cybozu-ui-forms-editor-seamless
+{
+  min-height: 0;
+}
+
+.gaia-argoui-app-edit-buttons-contents
+{
+  background-color: white;
+}
+
+.gaia-argoui-app-edit-buttons-contents .control-label-gaia
+{
+  background-color: white;
+}
+
+.gaia-argoui-app-edit-buttons
+{
+  border: none;
+}
+
+.layout-gaia.editablelayout-gaia
+{
+  background-color: white;
+}
+
+.layout-gaia.showlayout-gaia .row-gaia
+{
+  margin: 0;
+}
+
+.showlayout-gaia
+{
+  background-color: white;
+}
